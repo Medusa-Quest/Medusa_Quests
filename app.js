@@ -454,16 +454,18 @@ function applySettings() {
   if (hudScaler) {
     const s = settings.hudScale;
     hudScaler.style.transform = `scale(${s})`;
-    hudScaler.style.width = `calc(100% / ${s})`;
-    hudScaler.style.maxWidth = `calc(${settings.width}px / ${s})`;
+    hudScaler.style.width = `100%`;
+    hudScaler.style.margin = `0 auto`;
+    hudScaler.style.transformOrigin = `top center`;
   }
 
   const contentScaler = document.getElementById('contentScaler');
   if (contentScaler) {
     const s = settings.contentScale;
     contentScaler.style.transform = `scale(${s})`;
-    contentScaler.style.width = `calc(100% / ${s})`;
-    contentScaler.style.maxWidth = `calc(${settings.width}px / ${s})`;
+    contentScaler.style.width = `100%`;
+    contentScaler.style.margin = `0 auto`;
+    contentScaler.style.transformOrigin = `top center`;
   }
 
   const topHud = document.getElementById('topHud');
