@@ -363,3 +363,19 @@ button:active { transform: scale(0.95); }
 .settingsFooter button:hover { border-color: rgba(229, 192, 123, 0.6); background: rgba(229, 192, 123, 0.15); }
 .settingsFooter #settingsSave { background: #e5c07b; color: #0c0b0f; border-color: #e5c07b; }
 .settingsFooter #settingsSave:hover { background: #f0d08a; }
+
+/* ГАРАНТИРУЕМ ЦЕНТРИРОВАНИЕ МАСШТАБИРОВАННЫХ ЭЛЕМЕНТОВ */
+#hudScaler, #contentScaler {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* СБРАСЫВАЕМ ОТСТУПЫ, ЧТОБЫ БЛОКИ НЕ РАЗЪЕЗЖАЛИСЬ */
+.medusa-shell, #workArea {
+  width: 100%;
+  max-width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
