@@ -1,4 +1,4 @@
-# 🧚 Medusa Quest — Компаньон для 100% прохождения Elden Ring
+# Medusa Quest — Компаньон для 100% прохождения Elden Ring
 
 [![Live Demo](https://img.shields.io/badge/🌐-Открыть_сайт-2ea44f?style=for-the-badge)](https://medusa-quest.github.io/Medusa_Quests/)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Medusa-Quest/Medusa_Quests?style=for-the-badge)
